@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fuelo · Privacy policy</title>
+<style>
+  :root { --ink: #15171a; --mute: #5c6168; --line: #e1dfd5; --bg: #fafaf7; --accent: #2a7253; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1rem; margin: 20px 0 4px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 20px; }
+  .meta { color: var(--mute); font-size: 0.9rem; margin: 0 0 16px; }
+  .box { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  th { color: var(--mute); font-weight: 600; }
+  @media (max-width: 520px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: none; padding: 2px 0; } tr { border-bottom: 1px solid var(--line); padding: 8px 0; } td::before { content: attr(data-label) ": "; color: var(--mute); font-weight: 600; } }
+</style>
+</head>
+<body>
+<main>
+<h1>Fuelo privacy policy</h1>
+<p class="meta">October 2026 version · <a href="../privacidad/">Español</a> (the Spanish version prevails in case of doubt) · <a href="../terms/">Terms of use</a></p>
+
+<div class="box">
+<p><strong>In short.</strong> Fuelo has no accounts: we never ask for your name, email or phone number. Your location is used to find fuel stations and calculate routes, and we keep no logs of your routes. Only if you agree, we receive anonymous usage data and crash reports to improve the app, and you can change your mind at any time in Settings. There are no ads and we do not sell data.</p>
+</div>
+
+<h2>1. Who is responsible</h2>
+<p>AGILITZA, SLU (NRT L-721488-X), Baixada del Molí 10, 5è 4a, AD500 Andorra la Vella, Andorra.</p>
+<p>Contact for any privacy matter: <a href="mailto:fuelo@agilitza.com">fuelo@agilitza.com</a>.</p>
+
+<h2>2. What data we process and why</h2>
+
+<h3>2.1 Your location (only if you allow it)</h3>
+<p>Fuelo asks for location permission while you use the app, never in the background. We use it for two things:</p>
+<ul>
+  <li><strong>Fuel stations near you.</strong> The distance to each station is calculated on your phone. To show the name of your town, the phone uses the geocoding service built into Android, which on most phones is provided by Google.</li>
+  <li><strong>Routes.</strong> When you calculate a route, we send the coordinates of the start (your position, unless you choose another), the destination, the stops and the candidate stations to our routing server to compute the trip, its tolls and the detour to each station. That server keeps no logs of the routes requested.</li>
+</ul>
+<p>Legal basis: providing the service you ask for (Article 6.1.b GDPR). You can refuse or withdraw the permission in your phone settings; searching routes by typing a starting point still works.</p>
+
+<h3>2.2 What you type when searching for places</h3>
+<p>When you type a starting point, a destination or a stop, the text is sent to Google Places, part of Google Maps Platform, to suggest places, and when you pick one its coordinates are requested from Google. Google receives that text, a temporary search identifier and the technical details of the request, including your IP address, and handles them under the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>, which is incorporated into this policy for this feature. Suggestions are shown with the "Google Maps" attribution. Legal basis: providing the service you ask for (Article 6.1.b GDPR).</p>
+
+<h3>2.3 Prices, tolls and configuration</h3>
+<p>The app downloads public files (station prices, tolls, price history, brand logos and the version configuration) from the jsDelivr content delivery network and from GitHub. Like any web server, they receive your IP address and the technical details of the request. Which country files are downloaded depends on the area you search. Legal basis: providing the service (Article 6.1.b GDPR).</p>
+
+<h3>2.4 Data that stays on your phone</h3>
+<p>Stored on your phone and never sent to us: your settings (fuel, tank, consumption, value of your time, loyalty programs), your latest searched destinations (five at most), the savings estimate, copies of the downloaded price and toll data, and your answer about sharing usage data. They are deleted when you uninstall the app or clear its data in your phone settings.</p>
+
+<h3>2.5 Anonymous usage and crash reports (only if you agree)</h3>
+<p>Fuelo asks whether you want to share anonymous usage data. Until you say yes, none of this is sent. If you agree, we use Firebase Analytics and Firebase Crashlytics, Google services, to receive:</p>
+<ul>
+  <li>How the app is used: screens opened, whether a search finds results, whether Google Maps or Waze is opened, counts and times. Never station names, addresses, coordinates or anything you type.</li>
+  <li>Device data: model, Android version, app version and language.</li>
+  <li>An identifier of the app installation, which is not your name or phone number.</li>
+  <li>The approximate location (country or region) that Google derives from the IP address.</li>
+  <li>Crash reports when the app fails.</li>
+</ul>
+<p>We do not use the advertising ID, we do not personalise ads and we do not track you across apps.</p>
+<p>Legal basis: your consent (Article 6.1.a GDPR and Article 22.2 of Spanish Law 34/2002, LSSI). You can withdraw it at any time in <strong>Ajustes &gt; Compartir uso anónimo y errores</strong> (Settings &gt; Share anonymous usage and errors); from then on nothing else is sent. Withdrawing does not affect what was sent before.</p>
+
+<h3>2.6 Server security</h3>
+<p>Our routing server uses your IP address only in memory to stop abusive requests. Technical error logs may contain the IP and are kept for 14 days at most. Legal basis: our legitimate interest in keeping the service available and secure (Article 6.1.f GDPR).</p>
+
+<h2>3. Maps, Google Maps and Waze</h2>
+<p>Maps in the app are shown with Google Maps. To draw them, Google receives the requests it needs (the visible map area and technical device data) and handles them under the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>. The app does not send your position to the map.</p>
+<p>If you tap "Google Maps" or "Waze", we open that app with the coordinates of the chosen station (in Waze also its name). From then on, that app's privacy policy applies.</p>
+
+<h2>4. Who else receives data</h2>
+<table>
+<thead><tr><th>Who</th><th>What for</th><th>Where</th></tr></thead>
+<tbody>
+<tr><td data-label="Who">Hetzner Online GmbH</td><td data-label="What for">Hosts our routing server (processor)</td><td data-label="Where">Germany (EU)</td></tr>
+<tr><td data-label="Who">Google (Firebase)</td><td data-label="What for">Anonymous usage and crash reports, only with your consent (processor, under Google's data processing terms)</td><td data-label="Where">EU and United States</td></tr>
+<tr><td data-label="Who">Google (Maps, Places and Android geocoding)</td><td data-label="What for">Showing maps, suggesting places when you search and showing the name of your town</td><td data-label="Where">EU and United States</td></tr>
+<tr><td data-label="Who">jsDelivr and GitHub</td><td data-label="What for">Download of the public price, toll and configuration files</td><td data-label="Where">EU and United States</td></tr>
+</tbody>
+</table>
+<p>Andorra has an adequacy decision from the European Commission. Transfers to Google, GitHub and other United States providers rely on the EU and US Data Privacy Framework or on standard contractual clauses. We do not sell data or share it with advertisers.</p>
+
+<h2>5. How long data is kept</h2>
+<ul>
+  <li>Data on your phone: until you delete it or uninstall the app.</li>
+  <li>Routes on our server: not stored. Technical error logs: 14 days at most.</li>
+  <li>Firebase Analytics usage data: 2 months; after that only aggregated statistics without identifiers remain.</li>
+  <li>Crashlytics crash reports: 90 days.</li>
+  <li>Firebase installation identifier: until its deletion is requested.</li>
+</ul>
+
+<h2>6. Your rights</h2>
+<p>You can exercise your rights of access, rectification, erasure, restriction, objection and portability, and withdraw your consent, under the GDPR and the Andorran Law 29/2021 on personal data protection. Write to <a href="mailto:fuelo@agilitza.com">fuelo@agilitza.com</a>. Since we do not know who you are, to find your usage data we may need the installation identifier the app shows in Settings once you have agreed to share usage data.</p>
+<p>If you think we have not handled your data properly, you can complain to the Spanish Data Protection Agency (<a href="https://www.aepd.es">www.aepd.es</a>) or to the Andorran Data Protection Agency (<a href="https://www.apda.ad">www.apda.ad</a>).</p>
+
+<h2>7. Children</h2>
+<p>Fuelo is meant for people who drive and is not aimed at minors. If you are under 14, do not turn on usage sharing.</p>
+
+<h2>8. Security</h2>
+<p>All the app's connections are encrypted (HTTPS). Data that stays on the phone is protected by Android itself.</p>
+
+<h2>9. Changes</h2>
+<p>If we change this policy, we will publish the new version on this page with its date, and if the change is significant we will tell you in the app.</p>
+</main>
+</body>
+</html>

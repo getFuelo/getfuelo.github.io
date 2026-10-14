@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fuelo · Política de privacidad</title>
+<style>
+  :root { --ink: #15171a; --mute: #5c6168; --line: #e1dfd5; --bg: #fafaf7; --accent: #2a7253; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1rem; margin: 20px 0 4px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 20px; }
+  .meta { color: var(--mute); font-size: 0.9rem; margin: 0 0 16px; }
+  .box { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  th { color: var(--mute); font-weight: 600; }
+  @media (max-width: 520px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: none; padding: 2px 0; } tr { border-bottom: 1px solid var(--line); padding: 8px 0; } td::before { content: attr(data-label) ": "; color: var(--mute); font-weight: 600; } }
+</style>
+</head>
+<body>
+<main>
+<h1>Política de privacidad de Fuelo</h1>
+<p class="meta">Versión de octubre de 2026 · <a href="../privacy/">English</a> · <a href="../terminos/">Condiciones de uso</a></p>
+
+<div class="box">
+<p><strong>En pocas palabras.</strong> Fuelo no tiene cuentas: no te pedimos nombre, correo ni teléfono. Tu ubicación se usa para encontrar gasolineras y calcular rutas, y no guardamos registros de tus rutas. Solo si tú lo aceptas, enviamos datos de uso anónimos y avisos de errores para mejorar la app, y puedes cambiar de opinión cuando quieras en Ajustes. No hay publicidad y no vendemos datos.</p>
+</div>
+
+<h2>1. Quién es el responsable</h2>
+<p>AGILITZA, SLU (NRT L-721488-X), Baixada del Molí 10, 5è 4a, AD500 Andorra la Vella, Andorra.</p>
+<p>Contacto para cualquier cuestión de privacidad: <a href="mailto:fuelo@agilitza.com">fuelo@agilitza.com</a>.</p>
+
+<h2>2. Qué datos tratamos y para qué</h2>
+
+<h3>2.1 Tu ubicación (solo si das permiso)</h3>
+<p>Fuelo te pide permiso de ubicación mientras usas la app, nunca en segundo plano. La usamos para dos cosas:</p>
+<ul>
+  <li><strong>Gasolineras cerca de ti.</strong> La distancia a cada gasolinera se calcula en tu teléfono. Para mostrar el nombre de tu localidad, el teléfono consulta el servicio de geocodificación del propio sistema Android, que en la mayoría de teléfonos presta Google.</li>
+  <li><strong>Rutas.</strong> Cuando calculas una ruta, enviamos las coordenadas del origen (tu posición, si no eliges otro), del destino, de las paradas y de las gasolineras candidatas a nuestro servidor de rutas para calcular el trayecto, los peajes y el desvío hasta cada gasolinera. Ese servidor no guarda registros de las rutas que se le piden.</li>
+</ul>
+<p>Base legal: la prestación del servicio que nos pides (artículo 6.1.b del RGPD). Puedes negar o retirar el permiso en los ajustes del teléfono; la búsqueda de rutas escribiendo el origen sigue funcionando.</p>
+
+<h3>2.2 Lo que escribes al buscar lugares</h3>
+<p>Cuando escribes un origen, un destino o una parada, el texto se envía a Google Places, de Google Maps Platform, para sugerirte lugares, y al elegir uno se piden a Google sus coordenadas. Google recibe ese texto, un identificador temporal de la búsqueda y los datos técnicos de la petición, entre ellos tu dirección IP, y los trata según la <a href="https://policies.google.com/privacy?hl=es">Política de Privacidad de Google</a>, que forma parte de esta política para esta función. Las sugerencias se muestran con la atribución «Google Maps». Base legal: la prestación del servicio que nos pides (artículo 6.1.b del RGPD).</p>
+
+<h3>2.3 Precios, peajes y configuración</h3>
+<p>La app descarga ficheros públicos (precios de las gasolineras, peajes, histórico de precios, logotipos de marcas y la configuración de versiones) desde la red de distribución jsDelivr y desde GitHub. Como cualquier servidor web, reciben tu dirección IP y los datos técnicos de la petición. Qué ficheros de país se descargan depende de la zona en la que buscas. Base legal: prestación del servicio (artículo 6.1.b del RGPD).</p>
+
+<h3>2.4 Datos que se quedan en tu teléfono</h3>
+<p>Guardamos en tu teléfono, y no nos llegan: tus ajustes (combustible, depósito, consumo, valor de tu tiempo, programas de fidelidad), los últimos destinos que has buscado (como máximo cinco), la estimación de ahorro, copias de los datos de precios y peajes descargados, y tu respuesta sobre compartir datos de uso. Se borran al desinstalar la app o al borrar sus datos desde los ajustes del teléfono.</p>
+
+<h3>2.5 Uso anónimo de la app y errores (solo si lo aceptas)</h3>
+<p>Fuelo te pregunta si quieres compartir datos de uso anónimos. Mientras no digas que sí, no se envía nada de esto. Si aceptas, usamos Firebase Analytics y Firebase Crashlytics, servicios de Google, para recibir:</p>
+<ul>
+  <li>Cómo se usa la app: pantallas que se abren, si una búsqueda encuentra resultados, si se abre Google Maps o Waze, cantidades y tiempos. Nunca nombres de gasolineras, direcciones, coordenadas ni lo que escribes.</li>
+  <li>Datos del dispositivo: modelo, versión de Android, versión de la app e idioma.</li>
+  <li>Un identificador de la instalación de la app, que no es tu nombre ni tu número de teléfono.</li>
+  <li>La ubicación aproximada (país o región) que Google deduce de la dirección IP.</li>
+  <li>Informes de errores cuando la app falla.</li>
+</ul>
+<p>No usamos el identificador de publicidad, no personalizamos anuncios ni te seguimos entre apps.</p>
+<p>Base legal: tu consentimiento (artículo 6.1.a del RGPD y artículo 22.2 de la Ley 34/2002, LSSI). Puedes retirarlo cuando quieras en <strong>Ajustes &gt; Compartir uso anónimo y errores</strong>; desde ese momento no se envía nada más. Retirarlo no afecta a lo enviado antes.</p>
+
+<h3>2.6 Seguridad del servidor</h3>
+<p>Nuestro servidor de rutas usa tu dirección IP solo en memoria para frenar peticiones abusivas. Los registros técnicos de errores pueden contener la IP y se conservan como máximo 14 días. Base legal: nuestro interés legítimo en mantener el servicio disponible y seguro (artículo 6.1.f del RGPD).</p>
+
+<h2>3. Mapas, Google Maps y Waze</h2>
+<p>Los mapas de la app se muestran con Google Maps. Para dibujarlos, Google recibe las peticiones necesarias (la zona visible del mapa y datos técnicos del dispositivo) y las trata según la <a href="https://policies.google.com/privacy?hl=es">Política de Privacidad de Google</a>. La app no le envía tu posición al mapa.</p>
+<p>Si pulsas «Google Maps» o «Waze», abrimos esa app con las coordenadas de la gasolinera elegida (en Waze también su nombre). A partir de ahí se aplica la política de privacidad de esa app.</p>
+
+<h2>4. Quién más recibe datos</h2>
+<table>
+<thead><tr><th>Quién</th><th>Para qué</th><th>Dónde</th></tr></thead>
+<tbody>
+<tr><td data-label="Quién">Hetzner Online GmbH</td><td data-label="Para qué">Aloja nuestro servidor de rutas (encargado del tratamiento)</td><td data-label="Dónde">Alemania (UE)</td></tr>
+<tr><td data-label="Quién">Google (Firebase)</td><td data-label="Para qué">Uso anónimo y errores, solo con tu consentimiento (encargado del tratamiento, según los términos de tratamiento de datos de Google)</td><td data-label="Dónde">UE y Estados Unidos</td></tr>
+<tr><td data-label="Quién">Google (Maps, Places y geocodificación de Android)</td><td data-label="Para qué">Mostrar mapas, sugerir lugares al buscar y mostrar el nombre de tu localidad</td><td data-label="Dónde">UE y Estados Unidos</td></tr>
+<tr><td data-label="Quién">jsDelivr y GitHub</td><td data-label="Para qué">Descarga de los ficheros públicos de precios, peajes y configuración</td><td data-label="Dónde">UE y Estados Unidos</td></tr>
+</tbody>
+</table>
+<p>Andorra cuenta con una decisión de adecuación de la Comisión Europea. Las transferencias a Google, GitHub y otros proveedores de Estados Unidos se amparan en el Marco de Privacidad de Datos UE y EE. UU. o en cláusulas contractuales tipo. No vendemos datos ni los compartimos con anunciantes.</p>
+
+<h2>5. Cuánto tiempo se conservan</h2>
+<ul>
+  <li>Datos en tu teléfono: hasta que los borres o desinstales la app.</li>
+  <li>Rutas en nuestro servidor: no se guardan. Registros técnicos de errores: como máximo 14 días.</li>
+  <li>Datos de uso de Firebase Analytics: 2 meses; después solo quedan estadísticas agregadas sin identificadores.</li>
+  <li>Informes de errores de Crashlytics: 90 días.</li>
+  <li>Identificador de instalación de Firebase: hasta que se solicita su borrado.</li>
+</ul>
+
+<h2>6. Tus derechos</h2>
+<p>Puedes ejercer tus derechos de acceso, rectificación, supresión, limitación, oposición y portabilidad, y retirar tu consentimiento, conforme al RGPD y a la Llei 29/2021 qualificada de protecció de dades personals de Andorra. Escríbenos a <a href="mailto:fuelo@agilitza.com">fuelo@agilitza.com</a>. Como no sabemos quién eres, para localizar tus datos de uso puede que necesitemos el identificador de instalación que la app te muestra en Ajustes cuando has aceptado compartir datos.</p>
+<p>Si crees que no hemos tratado bien tus datos, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>) o ante la Agència Andorrana de Protecció de Dades (<a href="https://www.apda.ad">www.apda.ad</a>).</p>
+
+<h2>7. Menores</h2>
+<p>Fuelo está pensada para personas que conducen y no está dirigida a menores. Si tienes menos de 14 años, no actives la opción de compartir datos de uso.</p>
+
+<h2>8. Seguridad</h2>
+<p>Todas las conexiones de la app viajan cifradas (HTTPS). Los datos que se quedan en el teléfono están protegidos por el propio sistema Android.</p>
+
+<h2>9. Cambios</h2>
+<p>Si cambiamos esta política, publicaremos la nueva versión en esta página con su fecha, y si el cambio es importante te avisaremos en la app.</p>
+</main>
+</body>
+</html>
